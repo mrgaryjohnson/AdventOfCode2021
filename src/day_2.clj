@@ -1,7 +1,7 @@
 (ns day-2
     (:require [clojure.string :as string]))
 
-;; Part 2
+;; Part 1
 (defn part-1-navigate [commands]
       (reduce 
         (fn [[horz depth] command]
